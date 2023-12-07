@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_New_Attempt_Wetness
+  m_Shader: {fileID: -6465566751694194690, guid: 1d2a9af90780da04396b4f5fe95b774c, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: be4891ad2956de5478a68772893bf263, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 2800000, guid: 3e8f839d23c8c7f42b81fc76f0dbeb9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Map:
+        m_Texture: {fileID: 2800000, guid: 11666424abcc05f4d8546e5c947d2240, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcculsionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
+    - _Float: 0
+    - _OcculsionStrength: 0
+    - _Rim_Position: 0.3
+    - _Rim_Smoothing: 0.05
+    - _Rim_Width: 0.1
+    - _Smoothness: 100
+    - _Wetness: 0
+    - _WetnessDarkening: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Range: {r: 0, g: 0.35, b: 0, a: 0}
+    - _Range2: {r: 0.6, g: 0.9, b: 0, a: 0}
+    - _Range3: {r: 0.6, g: 0.9, b: 0, a: 0}
+    - _Rim_Color: {r: 0.5754717, g: 0.56189924, b: 0.56189924, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &7999534413399022163
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
